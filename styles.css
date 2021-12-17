@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgba(223, 228, 255, 1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(223, 228, 255, 0.15);
+overflow: hidden;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5rem;
+}
+#logo {
+  width: 200px;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.nav-btns {
+  transform: translateX(-1rem);
+}
+.nav-buttons {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 15rem;
+  background-color: #7757f1;
+  color: white;
+  letter-spacing: 1px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(10rem);
+}
+#heading {
+  width: 23rem;
+  padding-bottom: 3rem;
+}
+p {
+  width: 26rem;
+}
+.cta {
+  display: flex;
+  flex-direction: row;
+  transform: translateX(10rem);
+  padding-top: 4rem;
+}
+#ctabtn {
+  padding: 1em;
+  border: none;
+  border-radius: 15rem;
+  background-color: #7757f1;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#ctabtn:hover {
+  color: #7757f1;
+  background: rgb(223, 228, 255);
+  border: 1px solid #7757f1;
+  cursor: pointer;
+}
+.icon {
+  background: #7657f13a;
+  padding: 1em;
+  border: none;
+  border-radius: 15rem;
+  color: #7757f1;
+  transition: 0.3s;
+  transform: translateX(1rem);
+  cursor: pointer;
+}
+.icon:hover {
+  color: #7757f1;
+  background: rgb(223, 228, 255);
+  border: 1px solid #7757f1;
+}
+#bg-img {
+  height: 980px;
+  width: 1080px;
+  transform: skewX(-12deg) translateX(24rem) translateY(-31rem);
+}
